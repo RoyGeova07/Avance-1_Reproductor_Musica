@@ -9,7 +9,7 @@ import javafx.scene.layout.BorderPane;
 /**
  *
  * @author royum
- */
+ *///
 public class VentanaPrincipal extends BorderPane{
     
     public VentanaPrincipal(){

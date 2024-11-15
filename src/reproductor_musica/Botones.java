@@ -54,7 +54,7 @@ public class Botones extends HBox{
         
         boton.setMinHeight(80);
         boton.setMinWidth(80);
-        boton.setStyle(//comando en css
+        boton.setStyle(//comando en css para obtener imagen y color
         "-fx-background-color: transparent; " + 
         "-fx-background-image: url('img/" +nombre+ ".png');"+
         "-fx-background-size: cover;"

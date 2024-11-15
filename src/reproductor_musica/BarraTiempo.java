@@ -32,7 +32,7 @@ public class BarraTiempo extends VBox{
         
         barra=new Slider();
         barra.setMin(0);
-        barra.setMax(100);
+        barra.setMax(100);//
         barra.setValue(0);
         
         //aqui los alineamos al centro

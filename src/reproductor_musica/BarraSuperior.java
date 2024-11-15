@@ -37,7 +37,7 @@ public class BarraSuperior extends MenuBar { //aqui barra vacia
     private void prepararListener() {
 
         iAbrir.setOnAction(e -> ExploradorArchivos.SeleccionarArchivo());
-        iSalir.setOnAction(e -> Reproductor_Musica.getStage().close());// aqui cerrara la ventana y terminar la ejecucion
+        iSalir.setOnAction(e -> Reproductor_Musica.getStage().close());// aqui cerrara la ventana y terminar la ejecucion/
 
     }
 

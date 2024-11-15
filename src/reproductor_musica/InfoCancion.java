@@ -53,6 +53,7 @@ public class InfoCancion extends VBox{
         etArtista.setText("Artista: "+(titulo !=null ? artista: "No disponible"));
         etAlbum.setText("Album: "+(titulo !=null ? album: "No disponible"));
         
+        // si la musica no tiene imagen, se le pone una por defecto
         imagenCaratula.setImage(caratula !=null ? caratula : new Image("img/block.png"));
         
     }

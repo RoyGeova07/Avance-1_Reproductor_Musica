@@ -66,7 +66,7 @@ public class Cancion {
         if(archivo !=null&&(reproductor.getStatus()==Status.PLAYING
                 ||reproductor.getStatus()==Status.PAUSED )){//si esto es igual a status playing quiere decir que la cancion esta sonando la puedo pausar 
           reproductor.stop();
-        }
+        }//
         
         
     }

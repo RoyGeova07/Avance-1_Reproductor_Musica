@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  */
 public class ExploradorArchivos {
     
-    //stage bnuevo escenario
+    //stage nuevo escenario
     private static final Stage escenario;
     private static final FileChooser explorador;
         
